@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "silent-coder",
+  "description": "Code-only response mode for Claude Code. Claude outputs ONLY code blocks — no prose, no explanations.",
+  "owner": {
+    "name": "blackthornecl",
+    "url": "https://github.com/blackthornecl"
+  },
+  "plugins": [
+    {
+      "name": "silent-coder",
+      "description": "Activate code-only mode. Claude responds with ONLY code blocks — no explanations, no filler.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

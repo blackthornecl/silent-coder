@@ -1,0 +1,21 @@
+{
+  "name": "silent-coder",
+  "description": "Code-only response mode. Claude outputs ONLY code blocks — no prose, no explanations.",
+  "author": {
+    "name": "User"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/activate.js",
+            "timeout": 5,
+            "statusMessage": "Checking silent coder mode..."
+          }
+        ]
+      }
+    ]
+  }
+}

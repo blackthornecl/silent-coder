@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/BlackthornE/.claude/plugins/**)",
+      "Read(//c/Users/BlackthornE/.claude/**)",
+      "mcp__plugin_claude-mem_mcp-search__get_observations",
+      "mcp__plugin_claude-mem_mcp-search__search",
+      "Bash(find C:/Users/BlackthornE/.claude/plugins/cache/caveman/caveman/63e797cd753b -name *.js -type f)",
+      "Bash(claude plugin:*)",
+      "Bash(mkdir -p \"C:/Users/BlackthornE/.claude/skills/silent-coder\")",
+      "Bash(cp \"C:/Users/BlackthornE/Documents/bolsa-sj/skills/silent-coder/SKILL.md\" \"C:/Users/BlackthornE/.claude/skills/silent-coder/SKILL.md\")",
+      "Bash(mkdir -p \"C:/Users/BlackthornE/.claude/hooks\")",
+      "Bash(cp \"C:/Users/BlackthornE/Documents/bolsa-sj/hooks/activate.js\" \"C:/Users/BlackthornE/.claude/hooks/silent-activate.js\")",
+      "Bash(winget install:*)",
+      "Bash(gh repo:*)",
+      "Bash(where gh:*)",
+      "Read(//c//**)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo create silent-coder --public --push --source .)",
+      "Bash(claude marketplace:*)"
+    ]
+  }
+}
